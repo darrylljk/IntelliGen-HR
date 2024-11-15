@@ -17,4 +17,4 @@ Smart Interview AI helps you craft personalized interview questions for each can
 ![Smart Interview AI output](https://github.com/user-attachments/assets/f135f043-6b23-4ad8-98d0-9a26750cae42)
 
 ## Collab Opportunities
-Like what you see? Let's connect! Feel free to message me on [LinkedIn](https://www.linkedin.com/in/darryl-lee-jk/) 😊
+Like what you see? Let's connect! Send me a DM on [LinkedIn](https://www.linkedin.com/in/darryl-lee-jk/) 😊
