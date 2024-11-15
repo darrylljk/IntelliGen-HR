@@ -80,16 +80,13 @@ def extract_requirements(text): # extracts key info from JD
     Provide a summary of the key requirements.
     """
 
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": "You are a helpful assistant that extracts key skills, qualifications, and responsibilities from the job description"},
-            {"role": "user", "content": prompt}
-        ],
-        max_tokens=1500,
-        n=1,
-        stop=None,
-        temperature=0
+    response = openai.chat.completions.create(
+    model=model,
+    messages=[
+        {"role":"system", "content":"You are a helpful assistant that extracts key skills, qualifications, and responsibilities from the job description"},
+        {"role":"user", "content":prompt}
+    ],
+    max_tokens=2000, n=1, stop=None, temperature=0
     )
 
     return response.choices[0].message.content.strip()
@@ -106,16 +103,13 @@ def analyze_text(text): # analyzes candidate CV text
     Provide a summary of the candidate's skills and experiences.
     """
 
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
-            {'role': 'system', 'content': 'You are a helpful assistant that analyzes the text to extract skills, qualifications, and experience from the candidate CV'},
-            {'role': 'user', 'content': prompt}
-        ],
-        max_tokens=1500,
-        n=1,
-        stop=None,
-        temperature=0
+    response = openai.chat.completions.create(
+    model=model,
+    messages=[
+        {"role":"system", "content":"You are a helpful assistant that analyzes the text to extract skills, qualifications, and experience from the candidate CV."},
+        {"role":"user", "content":prompt}
+    ],
+    max_tokens=2000, n=1, stop=None, temperature=0
     )
 
     return response.choices[0].message.content.strip()
@@ -136,17 +130,15 @@ def evaluate_candidate_fit(requirements, cv_analysis): # assess candidate fit ba
     Provide a suitability score on a scale of 1 to 10, and explain the assessment.
     """
 
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
-            {'role': 'system', 'content': 'You are a helpful assistant that evaluates the candidate fit for the role based on the job requirements and their CV'},
-            {'role': 'user', 'content': prompt}
-        ],
-        max_tokens=1500,
-        n=1,
-        stop=None,
-        temperature=0
+    response = openai.chat.completions.create(
+    model=model,
+    messages=[
+        {"role":"system", "content":"You are a helpful assistant that evaluates the candidate fit for the role based on the job requirements and their CV."},
+        {"role":"user", "content":prompt}
+    ],
+    max_tokens=2000, n=1, stop=None, temperature=0
     )
+
 
     return response.choices[0].message.content.strip()
 
@@ -223,6 +215,36 @@ with st.form(key='settings_form'):
     )
     st.markdown('')
     submit_button = st.form_submit_button(label='📄 Generate Interview Questions', help='Click to generate the job description based on the entered information.')
+
+if submit_button:
+    if jd_file is None or cv_file is None:
+        st.warning("Missing files. Please ensure both the Job Description and Candidate CV files are uploaded.")
+    else:
+        with st.spinner('Processing...'):
+            jd = read_file(jd_file)
+            cv = read_file(cv_file)
+
+            jd_requirements = extract_requirements(jd)
+            cv_analysis = analyze_text(cv)
+
+            suitability_score = evaluate_candidate_fit(jd_requirements, cv_analysis)
+
+            progress_bar = st.progress(0)
+
+            for percent_complete in range(100):
+                time.sleep(0.05)
+                progress_bar.progress(percent_complete + 1)
+
+            questions = generate_interview_questions(jd, cv, categories)
+    
+        st.subheader("Generated Interview Questions:")
+        st.balloons()
+        st.write(questions)
+        st.download_button(label="Download Questions as TXT", data=questions, file_name="interview_questions.txt", mime="text/plain")
+
+        st.subheader('Candidate Suitability Assessment:')
+        st.write(suitability_score)
+
 
 
 # Link to profile 
