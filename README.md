@@ -1,6 +1,8 @@
 # HR IntelliGen 🐙
 
-Introducing a smarter approach to Human Resources.
+Introducing a smarter approach to Human Resources. 
+
+(_Originally developed for the HR division of a former employer. This is the prototype version._)
 
 HR IntelliGen is your HR GenAI Partner that frees you from mundane HR chores, allowing you to focus on what truly matters.
 
