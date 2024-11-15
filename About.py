@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title='HR IntelliGen', page_icon='📊')
-st.header('📊 HR IntelliGen')
+st.set_page_config(page_title='HR IntelliGen', page_icon='🐙')
+st.header('🐙 HR IntelliGen')
 
 st.markdown("""
             Introducing a smarter approach to Human Resources.
