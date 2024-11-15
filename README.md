@@ -1,4 +1,4 @@
-# HR-IntelliGen 🚀
+# HR IntelliGen 🚀
 
 Introducing a smarter approach to Human Resources.
 
