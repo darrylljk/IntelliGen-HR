@@ -11,11 +11,11 @@ Try it here: [HR IntelliGen App](https://hr-intelligen.streamlit.app/) 🚀
 ## Toolkit
 
 ### 1. AutoJD
-AutoJD helps you quickly craft professional job descriptions tailored to your needs.
+AutoJD helps you quickly craft professional job descriptions.
 ![AutoJD output](https://github.com/user-attachments/assets/596615ff-4941-4b27-9696-1c012bfd11f3)
 
 ### 2. Smart Interview AI
-Smart Interview AI helps you craft personalized interview questions for each candidate by analyzing their resumes and the job description.
+Smart Interview AI helps you generate personalized interview questions by analyzing candidates' CVs and job descriptions.
 ![Smart Interview AI output](https://github.com/user-attachments/assets/f135f043-6b23-4ad8-98d0-9a26750cae42)
 
 ## Collab Opportunities
