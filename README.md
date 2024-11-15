@@ -1,10 +1,10 @@
-# HR-IntelliGen
+# HR-IntelliGen 🚀
 
 Introducing a smarter approach to Human Resources.
 
 HR IntelliGen is your ❤️‍🔥 HR AI Partner that frees you from mundane HR chores, so that you can focus on what truly matters.
 
-Try it here: [HR IntelliGen App](https://hr-intelligen.streamlit.app/) 🚀
+Try it here: [HR IntelliGen App](https://hr-intelligen.streamlit.app/) 
 
 ## Toolkit
 
