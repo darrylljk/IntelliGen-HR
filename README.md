@@ -8,6 +8,9 @@ HR IntelliGen is your HR GenAI Partner that frees you from mundane HR chores, al
 
 Try it here: [HR IntelliGen App](https://hr-intelligen.streamlit.app/) 🚀
 
+## Home Page
+![Home page](https://github.com/user-attachments/assets/367dc48f-01fe-47eb-b98e-eb9a4cadcbe9)
+
 ## Toolkit
 
 ### 1. AutoJD
