@@ -2,7 +2,7 @@
 
 Introducing a smarter approach to Human Resources. 
 
-HR IntelliGen is your HR GenAI Partner that frees you from mundane HR chores, allowing you to focus on what truly matters.
+HR IntelliGen is your AI Partner that frees you from mundane HR chores, allowing you to focus on what truly matters.
 
 (_NB: Originally developed for the HR division at a former employer. This is a functional prototype._)
 
