@@ -21,5 +21,5 @@ AutoJD helps you quickly craft professional job descriptions tailored to your ne
 Smart Interview AI generates personalized interview questions by analyzing candidates' CVs and job descriptions.
 ![Smart Interview AI output](https://github.com/user-attachments/assets/f135f043-6b23-4ad8-98d0-9a26750cae42)
 
-## Collab Opportunities
-Like what you see? Let's connect! Send me a DM on [LinkedIn](https://www.linkedin.com/in/darryl-lee-jk/) 😊
+## Contact
+Darryl Lee - [LinkedIn](https://www.linkedin.com/in/darryl-lee-jk/)
