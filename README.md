@@ -9,7 +9,7 @@ IntelliGen HR is your AI Partner that frees you from mundane HR chores, allowing
 Try it here: [IntelliGen HR App](https://hr-intelligen.streamlit.app/) 🚀
 
 ## Home Page
-![Home page](https://github.com/user-attachments/assets/367dc48f-01fe-47eb-b98e-eb9a4cadcbe9)
+![Home page](https://github.com/user-attachments/assets/68a74a6d-5c64-4d37-b86a-fc4f45463926)
 
 ## Toolkit
 
