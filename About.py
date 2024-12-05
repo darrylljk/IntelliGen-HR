@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title='HR IntelliGen', page_icon='🐙')
-st.header('🐙 HR IntelliGen')
+st.header('IntelliGen HR')
 
 st.markdown("""
             Introducing a smarter approach to Human Resources.
 
-            HR IntelliGen is your AI Partner that frees you from mundane HR chores, allowing you to focus on what truly matters. ❤️‍🔥
+            IntelliGen HR is your AI Partner that frees you from mundane HR chores, allowing you to focus on what truly matters.
 
             ⬅️ Click on the tabs in the sidebar to get started.
 """)
