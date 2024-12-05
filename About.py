@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title='HR IntelliGen', page_icon='🐙')
+st.set_page_config(page_title='HR IntelliGen', page_icon='💫')
 st.header('IntelliGen HR')
 
 st.markdown("""
