@@ -6,7 +6,7 @@ HR IntelliGen is your AI Partner that frees you from mundane HR chores, allowing
 
 (_NB: Originally developed for the HR division at a former employer. This is a functional prototype._)
 
-Try it here: [HR IntelliGen App](https://hr-intelligen.streamlit.app/) 🚀
+Try it here: [IntelliGen HR App](https://hr-intelligen.streamlit.app/) 🚀
 
 ## Home Page
 ![Home page](https://github.com/user-attachments/assets/367dc48f-01fe-47eb-b98e-eb9a4cadcbe9)
