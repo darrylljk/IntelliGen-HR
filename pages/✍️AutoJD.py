@@ -124,6 +124,8 @@ if submit_button:
     st.download_button(label="Download Job Description as TXT", data=job_description, file_name="job_description.txt", mime="text/plain")
 
 # Link to profile 
+st.write('')
+st.write('')
 st.markdown("""
     <style>
         .footer {
@@ -138,7 +140,7 @@ st.markdown("""
     </style>
     <div class="footer">
         Author: Darryl Lee | 
-        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a> | 
+        <a href="https://www.linkedin.com/in/darryl-lee-jk/" target="_blank">LinkedIn</a> | 
         <a href="https://github.com/darrylljk" target="_blank">GitHub</a>
     </div>
 """, unsafe_allow_html=True)
