@@ -24,6 +24,8 @@ st.markdown('##### 2. Smart Interview AI ')
 st.markdown('Generate personalized interview questions.')
 
 # Link to profile 
+st.write('')
+st.write('')
 st.markdown("""
     <style>
         .footer {
@@ -38,7 +40,7 @@ st.markdown("""
     </style>
     <div class="footer">
         Author: Darryl Lee | 
-        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a> | 
+        <a href="https://www.linkedin.com/in/darryl-lee-jk/" target="_blank">LinkedIn</a> | 
         <a href="https://github.com/darrylljk" target="_blank">GitHub</a>
     </div>
 """, unsafe_allow_html=True)
