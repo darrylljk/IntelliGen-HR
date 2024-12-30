@@ -7,7 +7,7 @@ st.header('IntelliGen HR')
 st.markdown("""
             Introducing a smarter approach to Human Resources.
 
-            IntelliGen HR is your AI Partner that frees you from mundane HR chores, allowing you to focus on what truly matters.
+            Meet IntelliGen HR, your AI partner that takes care of boring HR chores, allowing you to focus on what truly matters.
 
             ⬅️ Click on the tabs in the sidebar to get started.
 """)
