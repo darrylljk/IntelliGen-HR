@@ -1,8 +1,8 @@
 # IntelliGen HR
 
-**Target users**: HR Executives
+IntelliGen HR is an AI partner that takes care of routine HR tasks, making room for teams to focus on meaningful and strategic work.
 
-Meet IntelliGen HR, your AI partner that takes care of boring HR chores, allowing you to focus on what truly matters.
+**Target users**: HR Executives
 
 (_Note: This was originally developed and deployed for the HR division at a former employer. This is a functional prototype._)
 
