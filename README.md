@@ -1,12 +1,12 @@
 # IntelliGen HR
 
-Introducing a smarter approach to Human Resources. 
+**Target users**: HR Executives
 
-IntelliGen HR is your AI Partner that frees you from mundane HR chores, allowing you to focus on what truly matters.
+Meet IntelliGen HR, your AI partner that takes care of boring HR chores, allowing you to focus on what truly matters.
 
-(_NB: Originally developed for the HR division at a former employer. This is a functional prototype._)
+(_Note: This was originally developed and deployed for the HR division at a former employer. This is a functional prototype._)
 
-Try it here: [IntelliGen HR App](https://intelligen-hr.streamlit.app/) 🚀
+Try the app here: [IntelliGen HR App](https://intelligen-hr.streamlit.app/) 🚀
 
 ## Home Page
 ![Home page](https://github.com/user-attachments/assets/68a74a6d-5c64-4d37-b86a-fc4f45463926)
