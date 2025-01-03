@@ -20,7 +20,7 @@ api_key = st.secrets["OPENAI_API_KEY"]
 # -------------------------------
 
 openai.api_key = api_key
-model = "gpt-4o-mini"
+model = "GPT-4o-mini"
 
 # page config
 st.set_page_config(page_title='AutoJD', page_icon='📌')
