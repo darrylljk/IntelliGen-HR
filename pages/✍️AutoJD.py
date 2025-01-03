@@ -81,7 +81,7 @@ def generate_job_description(job_title, company, department, department_info, ex
     Job Description:
     """
 
-    response = openai.chat.completions.create(
+    response = openai.ChatCompletion.create(
         model=model,
         messages=[
             {"role":"system", "content":"You are an experienced talent acquisition executive specializing in crafting compelling and detailed job descriptions that attract top talent across various industries."},
