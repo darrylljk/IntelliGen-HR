@@ -4,19 +4,14 @@ from dotenv import load_dotenv
 import os
 import time
 
-# # system config
-# load_dotenv()
-# api_key = os.getenv("OPENAI_API_KEY")
-# openai.api_key = api_key
-
 # system config
 # ----- local (store api key in .env file) ---------
-# load_dotenv()
-# api_key = os.getenv("OPENAI_API_KEY")
+load_dotenv()
+api_key = os.getenv("OPENAI_API_KEY")
 # ----- --------------------------------------------
 
 # ----- streamlit cloud ---------
-api_key = st.secrets["OPENAI_API_KEY"]
+# api_key = st.secrets["OPENAI_API_KEY"]
 # -------------------------------
 
 openai.api_key = api_key
@@ -91,6 +86,7 @@ def generate_job_description(job_title, company, department, department_info, ex
     )
     return response.choices[0].message.content.strip()
 
+# form
 with st.form(key='job_description_form'): # form
     company = st.text_input('Company', 'Meta', help='Enter the company name where the position is offered.')
     job_title = st.text_input('Job Title', "Data Scientist", help='Specify the title of the job being offered.')
@@ -133,11 +129,10 @@ if submit_button:
 
     st.subheader("Generated Job Description:")
     st.write(job_description)
+    st.balloons()
     st.download_button(label="Download Job Description as TXT", data=job_description, file_name="job_description.txt", mime="text/plain")
 
 # Link to profile 
-st.write('')
-st.write('')
 st.markdown("""
     <style>
         .footer {
@@ -152,7 +147,7 @@ st.markdown("""
     </style>
     <div class="footer">
         Author: Darryl Lee | 
-        <a href="https://www.linkedin.com/in/darryl-lee-jk/" target="_blank">LinkedIn</a> | 
+        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a> | 
         <a href="https://github.com/darrylljk" target="_blank">GitHub</a>
     </div>
 """, unsafe_allow_html=True)
