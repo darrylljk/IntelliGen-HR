@@ -4,11 +4,21 @@ from dotenv import load_dotenv
 import os
 import time
 
+# # system config
+# load_dotenv()
+# api_key = os.getenv("OPENAI_API_KEY")
+# openai.api_key = api_key
+# model = "gpt-4o-mini"
+
 # system config
-load_dotenv()
-api_key = os.getenv("OPENAI_API_KEY")
-openai.api_key = api_key
-model = "gpt-4o-mini"
+# ----- local (store api key in .env file) ---------
+# load_dotenv()
+# api_key = os.getenv("OPENAI_API_KEY")
+# ----- --------------------------------------------
+
+# ----- streamlit cloud ---------
+api_key = st.secrets["OPENAI_API_KEY"]
+# -------------------------------
 
 # page config
 st.set_page_config(page_title='AutoJD', page_icon='📌')
