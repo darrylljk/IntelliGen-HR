@@ -8,7 +8,6 @@ import time
 # load_dotenv()
 # api_key = os.getenv("OPENAI_API_KEY")
 # openai.api_key = api_key
-# model = "gpt-4o-mini"
 
 # system config
 # ----- local (store api key in .env file) ---------
@@ -18,6 +17,7 @@ import time
 
 # ----- streamlit cloud ---------
 api_key = st.secrets["OPENAI_API_KEY"]
+model = "gpt-4o-mini"
 # -------------------------------
 
 # page config
