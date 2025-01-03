@@ -6,12 +6,12 @@ import time
 
 # system config
 # ----- local (store api key in .env file) ---------
-load_dotenv()
-api_key = os.getenv("OPENAI_API_KEY")
+# load_dotenv()
+# api_key = os.getenv("OPENAI_API_KEY")
 # ----- --------------------------------------------
 
 # ----- streamlit cloud ---------
-# api_key = st.secrets["OPENAI_API_KEY"]
+api_key = st.secrets["OPENAI_API_KEY"]
 # -------------------------------
 
 openai.api_key = api_key
